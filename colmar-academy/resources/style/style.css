@@ -1,0 +1,542 @@
+/* Page styling */
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  line-height: 1.3;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* Header styling */
+
+header {
+  height: 64px;
+  margin: auto 24px;
+  display: flex;
+}
+
+header .desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .mobile {
+  display: none;
+}
+
+.icon {
+  height: 32px;
+}
+
+.school-logo h3 {
+  margin-left: 2px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.school-logo h3 span {
+  font-weight: normal;
+  color: #888;
+}
+
+.school-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .desktop ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+header .desktop ul li {
+  margin-right: 16px;
+}
+
+header .desktop ul li:last-child {
+  margin-right: 0;
+}
+
+/* Section 1 styling */
+
+.learn-new-container {
+  background-color: lightgray;
+  display: flex;
+}
+
+.learn-new-container-col-1 {
+  width: 60%;
+  margin: 32px 24px;
+  line-height: 0;
+}
+
+.learn-new-container-col-1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.learn-new-container-col-2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learn-new-text {
+  width: 69%;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-new-text h2 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #444;
+}
+
+.learn-new-text > p {
+  font-weight: 700;
+  font-size: 23px;
+  color: #444;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #444;
+  padding: 8px 0;
+}
+
+.button p {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* Section 2 styling */
+
+.practice-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.practice-container-col-1 {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.practice-container-col-1 img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 32px;
+}
+
+.quote,
+.quote-source {
+  color: #666;
+}
+
+.practice-container-col-1 h2 {
+  font-weight: 900;
+  font-size: 33px;
+  margin-bottom: 24px;
+  line-height: 1.0;
+  color: #444;
+}
+
+.quote {
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.quote-source {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.practice-container-col-2 {
+  width: 40%;
+  margin-top: 16px;
+}
+
+.school-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.school-info .desktop-image {
+  margin: 16px;
+  width: 35%;
+  height: auto;
+}
+
+.school-info .mobile-image {
+  display: none;
+}
+
+.school-info-text a
+{
+  color: cornflowerblue;
+}
+
+.school-info-text h3 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #444;
+}
+
+.school-info-text p {
+  margin: 8px 4px 8px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+div[class="school-info"]:last-of-type {
+  background-color: lightgray;
+}
+
+
+/* Section 3 styling */
+
+.courses-container {
+  background-color: #eee;
+}
+
+.courses-container h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 32px 0;
+  line-height: 1.0;
+  color: #444;
+}
+
+.courses {
+  padding: 0 72px 32px;
+}
+
+.mobile-courses {
+  display: none;
+}
+
+.courses-row {
+  display: flex;
+  width: 100%;
+}
+
+.row1 {
+  margin-bottom: 32px;
+}
+
+.course {
+  background-color: white;
+  margin-right: 32px;
+  width: 33.33%;
+}
+
+.course:last-child {
+  margin-right: 0;
+}
+
+.course img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.course h3 {
+  margin: 16px 0 8px 16px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #444;
+}
+
+.course p {
+  margin-left: 16px;
+  color: #666;
+  font-size: 16px;
+}
+
+.course p:first-of-type {
+  margin-bottom: 8px;
+}
+
+.course p:last-of-type {
+  margin: 0 0 24px 16px;
+}
+
+
+/* Section 4 styling */
+
+.thesis-container {
+  margin: 0 0 32px 24px;
+}
+
+.thesis-container h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 32px 0;
+  line-height: 1.0;
+  color: #444;
+}
+
+.thesis {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesis-col1 {
+  margin: 0 24px 24px 0;
+  width: 60%;
+}
+
+.thesis-col1 video {
+  margin-bottom: 24px;
+  width: 100%;
+  height: auto;
+}
+
+.thesis-col1 h3 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.thesis-col1 p {
+  color: #666;
+  font-size: 16px;
+}
+
+.thesis-col2 {
+  width: 40%;
+}
+
+.thesis-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thesis-info img {
+  margin: 16px;
+  width: 35%;
+  height: auto;
+}
+
+.thesis-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thesis-info-text h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #444;
+}
+
+.thesis-info-text p {
+  margin: 8px 6px 8px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+div[class="thesis-info"]:first-of-type {
+  background-color: lightgray;
+}
+
+
+/* Footer styling */
+
+footer {
+  border-top: 1px solid lightgray;
+  height: 64px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 24px;
+}
+
+.footer-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-container ul li:first-of-type {
+  margin-right: 16px;
+}
+
+.footer-container p,
+.footer-container ul li {
+  font-size: 13px;
+  color: #444;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 615px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .learn-new-container {
+    flex-direction: column;
+  }
+
+  .learn-new-container-col-1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .learn-new-container-col-2 {
+    width: 100%;
+  }
+
+  .learn-new-text {
+    margin: 32px 16px;
+    width: auto;
+  }
+
+  .learn-new-text > p {
+    margin: 32px 0 24px;
+  }
+
+  .button {
+    background-color: #888;
+  }
+
+  .practice-container-col-1 {
+    display: none;
+  }
+
+  .practice-container-col-2 {
+    width: 100%;
+    margin: 16px 16px 32px;
+  }
+
+  .school-info {
+    flex-direction: column;
+    margin-top: 64px;
+    align-items: flex-start;
+  }
+
+  .school-info:first-of-type {
+    margin-top: 0;
+  }
+
+  .school-info .desktop-image {
+    display: none;
+  }
+
+  .school-info .mobile-image {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .school-info-text {
+    margin: 24px 0 0 16px;
+  }
+
+  div[class="school-info"]:last-of-type {
+    background-color: white;
+  }
+
+  .desktop-courses {
+    display: none;
+  }
+
+  .mobile-courses {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-courses ul {
+    list-style: none;
+  }
+
+  .courses-container {
+    background-color: white;
+    border: 1px solid lightgray;
+  }
+
+  .courses-container h2 {
+    margin: 32px 0 16px;
+    padding: 0;
+  }
+
+  .courses {
+    margin: 0 16px 32px;
+    padding: 0;
+  }
+
+  .mobile-courses ul li {
+    background-color: lightgray;
+    margin-bottom: 8px;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 16px 0 24px 16px;
+    line-height: 1.0;
+    color: #444;
+  }
+
+  .mobile-courses ul li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .thesis-desktop {
+    display: none;
+  }
+
+  .thesis-container {
+    margin: 32px 0 24px;
+  }
+
+  .thesis-container h2 {
+    margin: 0 0 16px;
+  }
+
+  .thesis-col1 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .thesis-col1 video {
+    margin: 0;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .footer-container {
+    margin: 16px 0 16px 24px;
+  }
+
+  .footer-container ul {
+    display: none;
+  }
+}
